@@ -6,6 +6,12 @@
 // Created on: April 2023
 // This is the Phaser 3 game config file
 
+// scene import statements
+import splashScene from './splashScene.js'
+
+// create the new scenes
+const splashScene = new splashScene()
+
 /**
  * Start Phaser game.
  */
