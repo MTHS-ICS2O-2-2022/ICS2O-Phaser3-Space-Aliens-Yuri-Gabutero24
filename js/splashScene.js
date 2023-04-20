@@ -29,6 +29,14 @@ init (data) {
 
 /**
  * can be defined on your own scenes
+ * use it to load assets
+ */
+preload() {
+  console.log("Splash Scene")
+}
+
+/**
+ * can be defined on your own scenes
  * use it to create game objects
  * @param {object} data - any data passed via ScenePlugin.add() or ScenePlugin.start()
  */
