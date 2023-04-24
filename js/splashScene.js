@@ -51,7 +51,7 @@ create(data) {
  * @param {number} delta - the delta time in ms since the last frame
  */
 update(time, delta) {
-  this.scene.switch("SitleScene")
+  this.scene.switch("TitleScene")
   }
 }
 
