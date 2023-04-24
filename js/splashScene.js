@@ -9,7 +9,7 @@
 /**
  * This class is the splash scene.
  */
-class splashScene extends Phaser.Scene {
+class SplashScene extends Phaser.Scene {
   /**
    * This method is the constructor.
    */
@@ -51,7 +51,7 @@ create(data) {
  * @param {number} delta - the delta time in ms since the last frame
  */
 update(time, delta) {
-  this.scene.switch("titleScene")
+  this.scene.switch("SitleScene")
   }
 }
 

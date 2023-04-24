@@ -9,7 +9,7 @@
 /**
  * This class is the title scene.
  */
-class titleScene extends Phaser.Scene {
+class TitleScene extends Phaser.Scene {
   /**
    * This method is the constructor.
    */
@@ -55,4 +55,4 @@ update(time, delta) {
   }
 }
 
-export default titleScene
+export default TitleScene
