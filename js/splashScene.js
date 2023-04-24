@@ -55,4 +55,4 @@ update(time, delta) {
   }
 }
 
-export default splashScene
+export default SplashScene
