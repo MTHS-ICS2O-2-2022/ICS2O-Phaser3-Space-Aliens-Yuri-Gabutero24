@@ -50,9 +50,7 @@ preload() {
  * @param {object} data - any data passed via ScenePlugin.add() or ScenePlugin.start()
  */
 create(data) {
-  this.titleSceneBackgroundImage = this.add
-    .sprite(0, 0, "titleSceneBackground")
-    .setscale(2.75)
+  this.titleSceneBackgroundImage = this.add.sprite(0, 0, "titleSceneBackground").setscale(2.75)
   this.titleSceneBackgroundImage.x = 1920 / 2
   this.titleSceneBackgroundImage.y = 1080 / 2
 
