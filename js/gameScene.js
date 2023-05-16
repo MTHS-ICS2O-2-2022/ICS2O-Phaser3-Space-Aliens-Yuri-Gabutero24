@@ -19,6 +19,7 @@ class GameScene extends Phaser.Scene {
     anAlien.body.velocity.y = 200
     anAlien.body.velocity.x = alienXVelocity
     this.alienGroup.add(anAlien)
+  }
 
   /**
    * This method is the constructor.
